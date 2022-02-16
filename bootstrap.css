@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: 'Syne Tactile', cursive;
+}
+ body{
+ 	background: url('back.jpg');
+ }
+ h1{
+ 	font-size: 4rem;
+ 	display: grid;
+ 	place-items: center;
+  	justify-content: center;
+ }
+ h1:hover{
+ 	text-shadow: 0 0 5px red, 0 0 20px red, 0 0 40px red ;
+ }
+ .colors{
+ 	color: #730f18;
+ }
+ .colors2{
+ 	background-color: #730f18;
+ 	border-color: #730f18;
+ }
+ .container{
+ 	height: 100vh;
+ }
+ .buffer{
+ 	height: 10rem;
+ }
+ button:hover{
+ 	box-shadow: 0 0 5px red, 0 0 20px red, 0 0 40px red ;
+ }
+
+ hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}

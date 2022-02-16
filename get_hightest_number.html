@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Practice for js</title>
+</head>
+<body>
+
+		<!-- <h1>program is about type number and print largest among them.</h1>
+		<p>Enter your number here: <input type="number" id="value1"> <button onclick="getlargest()">Submit</button> </p>
+		<p id="demo"></p>
+
+		<script type="text/javascript">
+			var reminder, largest=0;
+			var num = parseInt(document.getElementById("value1").value);
+
+		    Function getlargest(){
+		    	while (num > 0){
+		    		reminder = num % 10;
+		    		if(largest < reminder){
+		    			largest = reminder
+		    		}
+		    			num = num / 10;
+		    	}
+			document.getElementById("demo").innerHTML = largest;
+			return 0;
+		    } 
+		</script> -->
+
+
+		<!-- <h3>my 1st js program</h3>
+		<p id="demo"></p>
+		<script type="text/javascript">
+
+			var string = "hi there";
+			const splits = string.split('');
+			const spreads = [...string];
+			const converarray = Array.from[string];
+			const objectAssign = Object.assign([], string);
+
+			document.getElementById("demo").innerHtml = "this is your answer" + objectAssign;
+		</script> -->
+
+
+	<!-- 	<h3>my 2st js program</h3>
+		<p> type your value here: <input id="value1"> <button onclick="myfunction()">submit</button></p>
+		<p id="demo"></p>
+		<script type="text/javascript">
+
+			function myfunction(){
+			var num = document.getElementById("value1").value;
+			console.log(num);
+			var str = num.toString();
+			var splite = str.split('');
+			var largest = splite.sort(function (a,b) {return b - a});
+			// console.log("This is your answer" , largest[0]);
+			document.getElementById("demo").innerHTML = "Your answer is here: "+largest[0];
+			}
+		</script> -->
+
+
+<!-- 
+			<h3>my 2st js program</h3>
+	 <p> type your value here: <input id="value1"> <button onclick="myfunction()">submit</button></p>
+		<p id="demo"></p>
+		<p id="demo2"></p>
+		<script type="text/javascript">
+			var FirstName = "Pankaj";
+			var MiddleName = 85828;
+			var LastName = "Kumawat";
+			document.getElementById("demo").innerHTML = this.FirstName + " " + this.LastName;
+			document.getElementById("demo2").innerHTML = FirstName + " " + LastName;
+		</script> -->
+
+
+
+		<h3>my 2st js program</h3>
+			<p>Please select one option form Mercedes Below:</p><br>
+		<select id="select1" onchange="functionone()">
+			<option value="Mercedes - AMG">Mercedes - AMG
+			<option value="Mercedes - EQL">Mercedes - EQS
+			<option value="Mercedes - Mayback">Mercedes - Mayback
+			<option value="Mercedes - AMg-GT">Mercedes - AMg-GT
+			<option value="Mercedes - S-class">Mercedes - S-class
+		</select>
+		<p id="demo"></p>
+		<script type="text/javascript">
+
+			function functionone(){
+				var x = document.getElementById("select1").value;
+				document.getElementById("demo").innerHTML = "you select "+ x;
+			}
+		</script>
+	
+</body>
+</html>
